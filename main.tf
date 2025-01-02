@@ -6,5 +6,6 @@ resource "aws_instance" "web" {
   tags = {
     Name = "Vijayakumar"
     Env = "Test"
+    App = Nginx
   }
 }
