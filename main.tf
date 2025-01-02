@@ -7,6 +7,6 @@ resource "aws_instance" "web" {
     Name = "Vijayakumar"
     Env = "Test"
     App = "Nginx"
-    provider = AWS
+    provider = "AWS"
   }
 }
